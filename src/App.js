@@ -3,24 +3,28 @@ import Expenses from "./components/Expenses/Expenses";
 import NewExpense from "./components/NewExpense/NewExpense";
 const INIT_EXPENSES = [
   {
+    id: "e1",
     title: "Car insurance",
     amount: 188.55,
     date: new Date(2023, 5, 23),
   },
   {
+    id: "e2",
     title: "New Phone",
     amount: 200.2,
-    date: new Date(2023, 11, 2),
+    date: new Date(2022, 11, 2),
   },
   {
+    id: "e3",
     title: "Drive lessence",
     amount: 250,
-    date: new Date(2023, 11, 20),
+    date: new Date(2021, 11, 20),
   },
   {
+    id: "e4",
     title: "Camping",
     amount: 50.6,
-    date: new Date(2024, 0, 23),
+    date: new Date(2021, 0, 23),
   },
 ];
 function App() {
