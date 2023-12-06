@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Expenses from "./components/Expenses/Expenses";
 import NewExpense from "./components/NewExpense/NewExpense";
+
 const INIT_EXPENSES = [
   {
     id: "e1",
@@ -16,7 +17,7 @@ const INIT_EXPENSES = [
   },
   {
     id: "e3",
-    title: "Drive lessence",
+    title: "driving lessons",
     amount: 250,
     date: new Date(2021, 11, 20),
   },
@@ -25,6 +26,18 @@ const INIT_EXPENSES = [
     title: "Camping",
     amount: 50.6,
     date: new Date(2021, 0, 23),
+  },
+  {
+    id: "e5",
+    title: "New Book",
+    amount: 10.6,
+    date: new Date(2022, 0, 23),
+  },
+  {
+    id: "e6",
+    title: "Travel",
+    amount: 500,
+    date: new Date(2023, 0, 23),
   },
 ];
 function App() {
